@@ -8,7 +8,7 @@
         <div class="text-box">
           <h1>Acknowledgments</h1>
 
-          <p>At this point the developers would like to mention and credit some of the many people who
+          <p>At this point the core developers would like to mention and credit some of the many people who
             have been helping us in different ways during the course of this project. Without their help
             and encouragement NEFI would not have happened.</p>
 
@@ -52,7 +52,7 @@
           <p>At this point we also like to credit the students of the software engineering lecture of the
             winter term of 2013. Their work is at the core of NEFI 1.0 and NEFI 2.0. Our thanks go to:</p>
 
-          Winter term 2013:
+          <u>Winter term 2013:</u>
 
           <ul>
             <li>Tim Kehl</li>
@@ -64,7 +64,7 @@
             <li>Valentin Savenko</li>
           </ul>
 
-          Winter term 2015:
+          <u>Winter term 2015:</u>
 
           <ul>  
             <li>Dennis Groß</li>
