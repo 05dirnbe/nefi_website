@@ -84,13 +84,12 @@
         <div class="text-box">
           <h2 id="installation">Download and Installation</h2>
 
-          <p>If you are a Mac or Windows user, simply go to <a href="./download.php">Download</a> and
+          <p>NEFI is easy to install. If you are a Mac or Windows user, simply go to <a href="./download.php">Download</a> and
             download the package for your operating system. The packages listed in the download section
-            are complete software deploys. This means that you should be able to run these with a
-            doubleclick on the nefi symbol. Additionally there is no software required!
+            are complete software deploys. Thus, you simply run NEFI at the click of a button with no additional strings attached.
           </p>
 
-          <p>For linux users and contributors we offer an
+          <p>For linux users and people interested in contribution to NEFI we offer a
             <a href="./documentation/rst_files/Installation.html">detailed explanation</a>
             on how to install nefi manually. To see a listing of all used technologies and librarys
             please visit our
@@ -238,10 +237,11 @@
           <p>An additional limitation of NEFI consists of the inability to detect nodes of degree 2.
             NEFI's node detection relies on the skeleton of the segmented image. However, since the
             skeleton reflecting a path of nodes of degree two cannot be distinguished from a single long
-            edge, degree 2 nodes are automatically contracted. The authors stress at this point that NEFI
-            has its known limitations. NEFI it is not capable of dealing with every possible input picture
+            edge, degree 2 nodes are automatically contracted. The authors stress at this point that NEFI, like any other piece of code,
+            has its limitations and we are not trying to wipe them under the rug. NEFI it is not capable of dealing with every possible input picture
             and was never intended to do so. However, NEFI tries to make up for its weaknesses by offering
-            the possibility to integrate additional algorithms tailored towards a challenging input.</p>
+            the possibility to integrate additional algorithms tailored towards a challenging input. If you managed to find a way to treat more difficult images,
+            consider becoming a developer and share your advance with others by adding your solution to the set of NEFI's algorithms.</p>
         </div>
         <div class="text-box">
           <h2 id="details">Design philosophy, extendability and further reading</h2>
@@ -286,7 +286,7 @@
         <div class="text-box">
           <h2 id="publication">Publication</h2>
 
-          <p>NEFI is curerntly being peer reviewed. In the mean time you can find a preprint version of the full paper here&#58; <a href="http://arxiv.org/abs/1502.05241">NEFI&#58 Network Extraction Form Images</a> </p>
+          <p>We are able to announce that NEFI has been peer reviewed and accepted for publication by scientific reports. Given the increasing importance of software in almost all domains of science we are happy to see that software contributions are welcomed.</p>
         </div>
         <div class="text-box">
           <h2 id="citing">How to cite NEFI</h2>
@@ -294,18 +294,6 @@
           <p>If you use NEFI in your research, please add a citation. You can use the following BibTex
             entry in your paper.</p>
           
-          
-          <!--
-              @Unpublished{Dirnberger2015,
-              author    = "M. Dirnberger and A. Neumann and T. Kehl",
-              title     = "{NEFI: Network Extraction From Images}",
-              year      = "2015",
-              archivePrefix = "arXiv",
-              eprint        = "1502.05241",
-              primaryClass  = "cs.CV"
-              }-->
-          
-
           <pre>
             @article{Dirnberger2015,
             Author = {Dirnberger, M. and Kehl, T. and Neumann, A.},
