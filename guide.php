@@ -25,7 +25,7 @@
               </li>
               
               <li>
-                <a href="#contribution" class="list-group-item">Contribution</a>
+                <a href="#contribution" class="list-group-item">Making NEFI a community effort</a>
               </li>
               
               <li>
@@ -91,7 +91,7 @@
 
           <p>For linux users and people interested in contribution to NEFI we offer a
             <a href="./documentation/rst_files/Installation.html">detailed explanation</a>
-            on how to install nefi manually. To see a listing of all used technologies and librarys
+            on how to install NEFI manually. To see a listing of all used technologies and librarys
             please visit our
             <a href="./documentation/rst_files/Technologies.html"> Dependencies </a>
             section.
@@ -101,40 +101,50 @@
             an issue at our project github page. 
           </p>
 
-          <a class="github-button" href="https://github.com/05dirnbe/nefi/issues" data-icon="octicon-issue-opened" data-style="mega" data-count-api="/repos/05dirnbe/nefi#open_issues_count" data-count-aria-label="# issues on GitHub" aria-label="Issue 05dirnbe/nefi on GitHub">Issue
+          <a class="github-button" href="https://github.com/05dirnbe/NEFI/issues" data-icon="octicon-issue-opened" data-style="mega" data-count-api="/repos/05dirnbe/NEFI#open_issues_count" data-count-aria-label="# issues on GitHub" aria-label="Issue 05dirnbe/NEFI on GitHub">Issue
           </a>    
         </div>
         <div class="text-box">
           <h2 id="gettingstarted">Getting Started</h2>
 
-          <p>If you want to contribute to nefi we advice you to go through our
+          <p>If you want to contribute to NEFI we advice you to go through our
             <a href="./documentation/rst_files/Quick_Start_Guide_for_developers.html">Quick Start Guide for developers</a>.
           </p>
           <p>
-            To learn bout how to use nefi to extract graph structures from images  please refer to our
+            To learn bout how to use NEFI to extract graph structures from images  please refer to our
             <a href="./documentation/rst_files/Quick_Start_Guide_for_users.html"> Quick Start Guide for users</a>.
           </p>
         </div>
         <div class="text-box">
-          <h2 id="contribution">Contribution</h2>
+          <h2 id="contribution">Making NEFI a community effort</h2>
 
-          <p>Any support is appreciated!
+          <p>Excellent code relies on excellent libraries. Excellent libraries are excellent, because they are actively developed and are ever improving. 
+          NEFI relies on many such libraries to be useful and strives to stay relevant in the future. Currently a 2-man team of students supervised by core developers 
+          is maintaining the code base to make sure that NEFI is not falling behind too much. However, one of our major goals with NEFI is to attract a larger base of interested external developers
+          willing to tune in to the repository and keep an eye on the code. To make joining the project as easy as possible we decided to move from NEFI 1.0 to go from NEFI 2.0.
+          With NEFI 2.0 put a strong emphasis on clear design abiding best practices of software engineering paired with an extensive documentation suitable for users and developers alike. 
+          Using a very modular architecture it becomes trivial to add new algorithms to NEFI. Setting up a dedicated git repository as the backbone of NEFI ensures that future developments, issues and support are properly organized and taken care of.
           </p>
-          <p> If you are interested in contributing to the nefi project in any way please visit
+
+          <p>Now, despite our efforts, we try to keep it real and do not expect a bunch of people to show up making enormous contributions all of a sudden. However, we worked hard to enable 
+          NEFI to gradually transition away from being a small "behind-behind-closed-doors" research project towards a community-driven open source project. We believe that by opening up the project to everyone NEFI has a larger potential to grow
+          and stay relevant in the future. In order for NEFI to become self-suffcient, we need interested people willing to adopt NEFI as one of their projects.
+          </p>
+          <p> If you are interested in contributing to the NEFI project in any way please contact us or visit
             our github.
           </p>
 
-          <p>If you need more informations about the structure of nefi you should checkout the
-            <a href="./nefi/documentation/index.html">Documentation</a>. For further questions we invite you
-            to discuss the state of the nefi project with us in the Issue section of our github page.
+          <p>If you need more informations about the structure of NEFI you should checkout the
+            <a href="./NEFI/documentation/index.html">Documentation</a>. For further questions we invite you
+            to discuss the state of the NEFI project with us in the Issue section of our github page.
           </p>
-          <a class="github-button" href="https://github.com/05dirnbe/nefi" data-icon="octicon-eye" data-style="mega" data-count-href="/05dirnbe/nefi/watchers" data-count-api="/repos/05dirnbe/nefi#subscribers_count" data-count-aria-label="# watchers on GitHub" aria-label="Watch 05dirnbe/nefi on GitHub">Watch</a>
+          <a class="github-button" href="https://github.com/05dirnbe/NEFI" data-icon="octicon-eye" data-style="mega" data-count-href="/05dirnbe/NEFI/watchers" data-count-api="/repos/05dirnbe/NEFI#subscribers_count" data-count-aria-label="# watchers on GitHub" aria-label="Watch 05dirnbe/NEFI on GitHub">Watch</a>
 
           <!-- Place this tag where you want the button to render. -->
-          <a class="github-button" href="https://github.com/05dirnbe/nefi/fork" data-icon="octicon-repo-forked" data-style="mega" data-count-href="/05dirnbe/nefi/network" data-count-api="/repos/05dirnbe/nefi#forks_count" data-count-aria-label="# forks on GitHub" aria-label="Fork 05dirnbe/nefi on GitHub">Fork</a><!-- Place this tag in your head or just before your close body tag. -->
+          <a class="github-button" href="https://github.com/05dirnbe/NEFI/fork" data-icon="octicon-repo-forked" data-style="mega" data-count-href="/05dirnbe/NEFI/network" data-count-api="/repos/05dirnbe/NEFI#forks_count" data-count-aria-label="# forks on GitHub" aria-label="Fork 05dirnbe/NEFI on GitHub">Fork</a><!-- Place this tag in your head or just before your close body tag. -->
 
           <!-- Place this tag where you want the button to render. -->
-          <a class="github-button" href="https://github.com/05dirnbe/nefi/issues" data-icon="octicon-issue-opened" data-style="mega" data-count-api="/repos/05dirnbe/nefi#open_issues_count" data-count-aria-label="# issues on GitHub" aria-label="Issue 05dirnbe/nefi on GitHub">Issue</a>
+          <a class="github-button" href="https://github.com/05dirnbe/NEFI/issues" data-icon="octicon-issue-opened" data-style="mega" data-count-api="/repos/05dirnbe/NEFI#open_issues_count" data-count-aria-label="# issues on GitHub" aria-label="Issue 05dirnbe/NEFI on GitHub">Issue</a>
         </div>
         <div class="text-box">
           <h2 id="limitations">Accuracy, performance and limitations</h2>
@@ -267,11 +277,11 @@
             less error-prone and its maintainability is greatly increased. For more details on NEFI's
             dependencies see the <a href="./download.php">Download</a> page.</p>
 
-          <p>It is important to the developers of NEFI that the average user does not get caught up in
+          <p>It is important to the developers of NEFI that the user does not get caught up in
             unnecessary details when using NEFI. A tool should be only as complicated as it needs to be to
             do its job. However, there is a lot going on behind the scenes of every stage in the pipeline.
             For a detailed discussion of NEFI's design and its algorithms we refer the interested reader to
-            our upcoming publication. It contains a full description of NEFI and serves as a more detailed
+            our <a href="./NEFI/documentation/index.html">documentation</a>. It contains a full description of NEFI and serves as a more detailed
             companion document that goes side-by-side with this project page. For details, please see the
             section <a href="#publication">Publication</a>.</p>
         </div>
@@ -280,7 +290,7 @@
 
           <p>NEFI is under active delevopment and updated on a regular basis. If you want to be notified
             about major changes and new versions, consider subscribing to our <a href=
-                                                                                 "https://lists.mpi-inf.mpg.de/listinfo/nefi">mailing list</a> hosted at the <a href=
+                                                                                 "https://lists.mpi-inf.mpg.de/listinfo/NEFI">mailing list</a> hosted at the <a href=
                                                                                                                                                                 "http://www.mpi-inf.mpg.de/home/">Max-Planck Institute for Informatics</a>.</p>
         </div>
         <div class="text-box">
