@@ -9,7 +9,7 @@
           <h1>Contact</h1>
 
           <p>
-            NEFI's development is manages by
+            NEFI's development is managed by
             <a href="http://mpi-inf.mpg.de/~mtd">Michael Dirnberger</a>,
             <a href="http://mpi-inf.mpg.de/~aneumann">Adrian Neumann</a>,
             and Tim Kehl at the Max Planck Institutefor Informatics.
