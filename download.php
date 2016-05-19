@@ -15,14 +15,14 @@
             <a href="./guide.php#citing">How to cite</a> section of the guide.</p>
 
           <p>For Mac and Windows user we offer a binary version of NEFI for x64 operating systems. You can
-            download the version sutitable for your operating system listed in the binary section.
+            download the version suitable for your operating system below.
             If you are using Linux or are interested in contributing to the NEFI project, we recommend
             going with a
             <a href="./documentation/rst_files/Installation.html#linux">manual installation</a>. 
           </p>
           <p>
             If you have problems with the installation process please report an issue in our github
-            project page.
+            project page. The developers will try to do there best to tend to these issues.
           </p>
         </div>
         <div class="text-box">

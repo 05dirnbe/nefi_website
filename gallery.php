@@ -54,9 +54,8 @@
     <div class="container">
     <div id="links">
         <div class="container">
-          <h2>A.Junius</h2>
-          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna 
-            aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,</p>
+          <h2>A. Junius</h2>
+          <p>Automated characterization of pattern of veins of insect wings makes tedious manual inspection obsolete and can yield clues for robust species indentification.</p>
           <a href="./images/examples/large/a_junius/junius.jpeg" title="A.Junius Image" data-gallery>
                   <img src="./images/examples/large/a_junius/junius.jpeg" alt="image" class = "thumbnail">
               </a>
@@ -80,8 +79,7 @@
         </div>
         <div class="container">
           <h2>P. Polycephalum</h2>
-          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna 
-            aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,</p>
+          <p>Detailed studies of the vein network topology of P. polycephalum might be helpful in understanding the intricate dynamics governing its internal flows.</p>
           <a href="./images/examples/large/poly/poly.jpeg" title="A.Junius Image" data-gallery>
                   <img src="./images/examples/large/poly/poly.jpeg" alt="<im></im>age" class = "thumbnail">
               </a>
@@ -127,8 +125,7 @@
         </div>
         <div class="container">
           <h2>Leaf Venation</h2>
-          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna 
-            aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,</p>
+          <p>Patterns in the venation network of leafs are often important characteristics for the identification of plants. Dealing with an enormous number of possible variations becomes easier when automated approaches are available.</p>
           <a href="./images/examples/large/leaf_venation/leaf_venation.jpeg" title="Leaf Venation Image" data-gallery>
                   <img src="./images/examples/large/leaf_venation/leaf_venation.jpeg" alt="leaf_venation" class = "thumbnail">
           </a>
@@ -176,8 +173,8 @@
               </div>
         </div>
         <div class="container">
-          <h2>Another Spider Web</h2>
-          <p>This is an example of an almost optimal spider web network extraction.</p>
+          <h2>Spider webs</h2>
+          <p>The ultra fine structures observed in a spider's web, clearly show how NEFI reaches its limits.</p>
           <a href="./images/examples/large/web2/web2.jpg" title="Web #2 Image" data-gallery>
                   <img src="./images/examples/large/web2/web2.jpg" alt="image"" class="thumbnail">
               </a>

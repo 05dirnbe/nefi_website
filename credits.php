@@ -8,7 +8,7 @@
         <div class="text-box">
           <h1>Acknowledgments</h1>
 
-          <p>At this point the developers would like to mention and credit some of the many people who
+          <p>At this point the core developers would like to mention and credit some of the many people who
             have been helping us in different ways during the course of this project. Without their help
             and encouragement NEFI would not have happened.</p>
 
@@ -50,8 +50,9 @@
           <h4>Students of Saarland University</h4>
 
           <p>At this point we also like to credit the students of the software engineering lecture of the
-            winter term of 2013. The helped flesh out the design principles behind NEFI and provided us
-            with a preliminary GUI. Our thanks go to:</p>
+            winter term of 2013. Their work is at the core of NEFI 1.0 and NEFI 2.0. Our thanks go to:</p>
+
+          <u>Winter term 2013:</u>
 
           <ul>
             <li>Tim Kehl</li>
@@ -61,6 +62,11 @@
             <li>Sascha Herzinger</li>
             <li>Adrian Mang</li>
             <li>Valentin Savenko</li>
+          </ul>
+
+          <u>Winter term 2015:</u>
+
+          <ul>  
             <li>Dennis Groß</li>
             <li>Phillipp Reichert</li>
             <li>Pavel Shkadzko</li>
