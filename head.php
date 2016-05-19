@@ -30,7 +30,7 @@
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=
               "#navbar" aria-expanded="false" aria-controls="navbar"><span class="sr-only">Toggle
-          navigation</span></button> <span class="navbar-brand"><a href="index.php">NEFI</a></span>
+          navigation</span></button> <span class="navbar-brand"><a href="index.php">NEFI 2.0</a></span>
     </div>
 
     <div id="navbar" class="navbar-collapse collapse">

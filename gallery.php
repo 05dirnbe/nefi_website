@@ -212,7 +212,7 @@
         <div class="container image-container">
             <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
                 <h2>Spider webs</h2>
-                <p>The ultra fine structures observed in a spider's web, clearly show how NEFI reaches its limits.</p>
+                <p>NEFI is a powerful tool but its algorithms have their limitations. When processing the ultra fine structures observed in a spider's web artifacts can be observed.</p>
                 <div class="gallery-image-container">
                     <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
                         <a href="./images/examples/large/web2/web2.jpg" itemprop="contentUrl" data-size="3662x2748" > 

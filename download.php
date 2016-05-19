@@ -9,6 +9,7 @@
         <div class="text-box">
           <h2>Downloads</h2>
 
+          <p><b>Note: We have launched NEFI 2.0 and discontinued support for NEFI 1.0.</b></p>
           <p>NEFI is available free of charge under <a href="./license.php">a permissive BSD licence</a>.
             You are free to use and modify the software as you see fit. If you publish research that was
             done with the help of NEFI, we would appreciate it if you cited us as described in the 
@@ -24,6 +25,8 @@
             If you have problems with the installation process please report an issue in our github
             project page. The developers will try to do there best to tend to these issues.
           </p>
+          <!-- Place this tag where you want the button to render. -->
+          <a class="github-button" href="https://github.com/05dirnbe/NEFI/issues" data-icon="octicon-issue-opened" data-style="mega" data-count-api="/repos/05dirnbe/NEFI#open_issues_count" data-count-aria-label="# issues on GitHub" aria-label="Issue 05dirnbe/NEFI on GitHub">Issue</a>
         </div>
         <div class="text-box">
           <h2>Source Code</h2>

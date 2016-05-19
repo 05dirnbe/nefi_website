@@ -9,7 +9,7 @@
 
 
         
-        <h1>Network Extraction From Images</h1>
+        <h1>Network Extraction From Images 2.0</h1>
 
         <p>NEFI is an extensible tool for extracting graphs from images of networks.</p>
       </div>
@@ -18,7 +18,7 @@
     <div class="container">
       <!-- Example row of columns -->
 
-      <div class="row">
+      <div class="row" style="position:relative; left:200px;">
         <div class="col-md-4">
           <h2>Examples</h2>
           <a class="btn btn-lg btn-primary" href="./gallery.php"
@@ -35,7 +35,8 @@
           <p></p>
           <p>Using NEFI is very simple. This document will get you started right away.</p>
         </div>
-
+      </div>
+      <div class="row" style="position:relative; left:200px;">
         <div class="col-md-4">
           <h2>Get NEFI</h2>
           <a class="btn btn-lg btn-primary"  href="./download.php"
@@ -43,8 +44,18 @@
           <p></p>
           <p>NEFI is available for Windows, Linux and Mac.</p>
         </div>
+        <div class="col-md-4">
+          <h2>Contribute</h2>
+          <a class="btn btn-lg btn-primary"  href="https://github.com/05dirnbe/nefi" role=
+             "button">Github »</a>
+          <p></p>
+          <p>Help us improve and contribute your ideas</p>
+        </div>
       </div><!-- row -->
     </div>
+    
+    
+    
     <div class="spacer-huge"/>
   </body>
 

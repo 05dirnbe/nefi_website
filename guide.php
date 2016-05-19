@@ -15,17 +15,10 @@
               <li>
                 <a href="#introduction" class="list-group-item">Introduction</a>
               </li>
-
+            
+             
               <li>
-                <a href="#installation" class="list-group-item">Installation</a>
-              </li>
-              
-              <li>
-                <a href="#gettingstarted" class="list-group-item">Getting Started</a>
-              </li>
-              
-              <li>
-                <a href="#contribution" class="list-group-item">Making NEFI a community effort</a>
+                <a href="#details" class="list-group-item">Design philosophy</a>
               </li>
               
               <li>
@@ -33,15 +26,16 @@
               </li>
 
               <li>
-                <a href="#details" class="list-group-item">Design philosophy, extendability and further reading</a>
+                <a href="#contribution" class="list-group-item">Making NEFI a community effort</a>
+              </li>
+              
+              
+              <li>
+                <a href="#installation" class="list-group-item">Installation</a>
               </li>
 
               <li>
                 <a href="#mailinglist" class="list-group-item">Mailing List</a>
-              </li>
-
-              <li>
-                <a href="#publication" class="list-group-item">Publication</a>
               </li>
 
               <li>
@@ -80,72 +74,38 @@
             quickly falsify the predictions of their newest model using real world data. NEFI aims to
             enable and promote the application of graph theory across different fields and to be a useful
             tool for everyone seeking to bridge the gap between theory and experiment.</p>
-        </div>
-        <div class="text-box">
-          <h2 id="installation">Download and Installation</h2>
-
-          <p>NEFI is easy to install. If you are a Mac or Windows user, simply go to <a href="./download.php">Download</a> and
-            download the package for your operating system. The packages listed in the download section
-            are complete software deploys. Thus, you simply run NEFI at the click of a button with no additional strings attached.
-          </p>
-
-          <p>For linux users and people interested in contribution to NEFI we offer a
-            <a href="./documentation/rst_files/Installation.html">detailed explanation</a>
-            on how to install NEFI manually. To see a listing of all used technologies and librarys
-            please visit our
-            <a href="./documentation/rst_files/Technologies.html"> Dependencies </a>
-            section.
-          </p>
-
-          <p> If you have any trouble during the installation process please contact us by creating
-            an issue at our project github page. 
-          </p>
-
-          <a class="github-button" href="https://github.com/05dirnbe/NEFI/issues" data-icon="octicon-issue-opened" data-style="mega" data-count-api="/repos/05dirnbe/NEFI#open_issues_count" data-count-aria-label="# issues on GitHub" aria-label="Issue 05dirnbe/NEFI on GitHub">Issue
-          </a>    
-        </div>
-        <div class="text-box">
-          <h2 id="gettingstarted">Getting Started</h2>
-
-          <p>If you want to contribute to NEFI we advice you to go through our
-            <a href="./documentation/rst_files/Quick_Start_Guide_for_developers.html">Quick Start Guide for developers</a>.
-          </p>
           <p>
             To learn bout how to use NEFI to extract graph structures from images  please refer to our
             <a href="./documentation/rst_files/Quick_Start_Guide_for_users.html"> Quick Start Guide for users</a>.
           </p>
+          <p>If you want to contribute to NEFI we advice you to go through our
+            <a href="./documentation/rst_files/Quick_Start_Guide_for_developers.html">Quick Start Guide for developers</a>.
+          </p>
+          
         </div>
+        
         <div class="text-box">
-          <h2 id="contribution">Making NEFI a community effort</h2>
+          <h2 id="details">Design philosophy</h2>
 
-          <p>Excellent code relies on excellent libraries. Excellent libraries are excellent, because they are actively developed and are ever improving. 
-          NEFI relies on many such libraries to be useful and strives to stay relevant in the future. Currently a 2-man team of students supervised by core developers 
-          is maintaining the code base to make sure that NEFI is not falling behind too much. However, one of our major goals with NEFI is to attract a larger base of interested external developers
-          willing to tune in to the repository and keep an eye on the code. To make joining the project as easy as possible we decided to move from NEFI 1.0 to go from NEFI 2.0.
-          With NEFI 2.0 put a strong emphasis on clear design abiding best practices of software engineering paired with an extensive documentation suitable for users and developers alike. 
-          Using a very modular architecture it becomes trivial to add new algorithms to NEFI. Setting up a dedicated git repository as the backbone of NEFI ensures that future developments, issues and support are properly organized and taken care of.
-          </p>
+          <p>NEFI's approach is centered around the idea of intuitively combining algorithms to form an
+            effective extraction pipeline. Thus NEFI does not stop at implementing a single solution to the
+            network extraction problem but forms a flexible collection of powerful routines readily
+            available for users of any experience level. We stress that NEFI does not require any
+            prerequisite knowledge in image processing, computer vision or software design to be put to
+            effective use. On the other hand, experts who are developing their own algorithms for network
+            extraction are invited to consider using NEFI as an extendable framework. NEFI's modular design
+            facilitates adding new methods to NEFI make it easier to compare different approaches against
+            each other. Also, integrating your new algorithms into NEFI it might make it easier for you to
+            reach wider audiences and thus gain a bigger impact.</p>
 
-          <p>Now, despite our efforts, we try to keep it real and do not expect a bunch of people to show up making enormous contributions all of a sudden. However, we worked hard to enable 
-          NEFI to gradually transition away from being a small "behind-behind-closed-doors" research project towards a community-driven open source project. We believe that by opening up the project to everyone NEFI has a larger potential to grow
-          and stay relevant in the future. In order for NEFI to become self-suffcient, we need interested people willing to adopt NEFI as one of their projects.
-          </p>
-          <p> If you are interested in contributing to the NEFI project in any way please contact us or visit
-            our github.
-          </p>
+          <p>These straightforward considerations have become the guiding principles in NEFI's
+            development and are reflected in NEFI's design and implementation choices.</p>
 
-          <p>If you need more informations about the structure of NEFI you should checkout the
-            <a href="./NEFI/documentation/index.html">Documentation</a>. For further questions we invite you
-            to discuss the state of the NEFI project with us in the Issue section of our github page.
-          </p>
-          <a class="github-button" href="https://github.com/05dirnbe/NEFI" data-icon="octicon-eye" data-style="mega" data-count-href="/05dirnbe/NEFI/watchers" data-count-api="/repos/05dirnbe/NEFI#subscribers_count" data-count-aria-label="# watchers on GitHub" aria-label="Watch 05dirnbe/NEFI on GitHub">Watch</a>
-
-          <!-- Place this tag where you want the button to render. -->
-          <a class="github-button" href="https://github.com/05dirnbe/NEFI/fork" data-icon="octicon-repo-forked" data-style="mega" data-count-href="/05dirnbe/NEFI/network" data-count-api="/repos/05dirnbe/NEFI#forks_count" data-count-aria-label="# forks on GitHub" aria-label="Fork 05dirnbe/NEFI on GitHub">Fork</a><!-- Place this tag in your head or just before your close body tag. -->
-
-          <!-- Place this tag where you want the button to render. -->
-          <a class="github-button" href="https://github.com/05dirnbe/NEFI/issues" data-icon="octicon-issue-opened" data-style="mega" data-count-api="/repos/05dirnbe/NEFI#open_issues_count" data-count-aria-label="# issues on GitHub" aria-label="Issue 05dirnbe/NEFI on GitHub">Issue</a>
+          <p>We use Python to develop NEFI and rely on a number of expertly written, well-documented
+            and time-tested libraries. Thus NEFI becomes more efficient, better documented and more accessible to external contributers. </p>
         </div>
+        
+        
         <div class="text-box">
           <h2 id="limitations">Accuracy, performance and limitations</h2>
 
@@ -253,37 +213,60 @@
             the possibility to integrate additional algorithms tailored towards a challenging input. If you managed to find a way to treat more difficult images,
             consider becoming a developer and share your advance with others by adding your solution to the set of NEFI's algorithms.</p>
         </div>
+
         <div class="text-box">
-          <h2 id="details">Design philosophy, extendability and further reading</h2>
+          <h2 id="contribution">Making NEFI a community effort</h2>
 
-          <p>NEFI's approach is centered around the idea of intuitively combining algorithms to form an
-            effective extraction pipeline. Thus NEFI does not stop at implementing a single solution to the
-            network extraction problem but forms a flexible collection of powerful routines readily
-            available for users of any experience level. We stress that NEFI does not require any
-            prerequisite knowledge in image processing, computer vision or software design to be put to
-            effective use. On the other hand, experts who are developing their own algorithms for network
-            extraction are invited to consider using NEFI as an extendable framework. NEFI's modular design
-            facilitates adding new methods to NEFI make it easier to compare different approaches against
-            each other. Also, integrating your new algorithms into NEFI it might make it easier for you to
-            reach wider audiences and thus gain a bigger impact.</p>
+          <p>Excellent code relies on excellent libraries. Excellent libraries are excellent, because they are actively developed and are ever improving. 
+          NEFI relies on many such libraries to be useful and strives to stay relevant in the future. Currently a 2-man team of students supervised by core developers 
+          is maintaining the code base to make sure that NEFI is not falling behind. However, one of our major goals with NEFI is to attract a larger base of interested external developers
+          willing to tune in to the repository and keep an eye on the code. To make joining the project as easy as possible we decided to move from NEFI 1.0 to NEFI 2.0.
+          With NEFI 2.0 we put a strong emphasis on clear design abiding best practices of software engineering paired with an extensive documentation suitable for users and developers alike. 
+          Using a very modular architecture it becomes trivial to add new algorithms to NEFI. Setting up a dedicated git repository as the backbone of NEFI ensures that future developments, issues and support are properly organized and taken care of.
+          </p>
 
-          <p>These straightforward considerations have become the guiding principles in NEFI's
-            development and are reflected in NEFI's design and implementation choices.</p>
+          <p>Now, despite our efforts, we try to keep it real and do not expect a bunch of people to show up making enormous contributions all of a sudden. However, we worked hard to enable 
+          NEFI to gradually transition away from being a small "behind-closed-doors" research project towards a community-driven open source effort. We believe that by opening up the project to everyone NEFI has a larger potential to grow
+          and stay relevant in the future. In order for NEFI to become self-suffcient, we need interested people willing to adopt NEFI as one of their projects.
+          </p>
+          <p> If you are interested in contributing to the NEFI project in any way please contact us or visit
+            our github.
+          </p>
 
-          <p>The language we choose to implement NEFI is Python. Python is flexible, easy to use and
-            cross-platform. Above all, Python offers a large number of expertly written, well-documented
-            and time-tested libraries. By heavily relying on library code NEFI becomes more efficient,
-            better documented and thus easier to understand in detail. In addition to that NEFI becomes
-            less error-prone and its maintainability is greatly increased. For more details on NEFI's
-            dependencies see the <a href="./download.php">Download</a> page.</p>
+          <p>If you need more informations about the structure of NEFI you should checkout the
+            <a href="./NEFI/documentation/index.html">Documentation</a>. For further questions we invite you
+            to discuss the state of the NEFI project with us in the Issue section of our github page.
+          </p>
+          <a class="github-button" href="https://github.com/05dirnbe/NEFI" data-icon="octicon-eye" data-style="mega" data-count-href="/05dirnbe/NEFI/watchers" data-count-api="/repos/05dirnbe/NEFI#subscribers_count" data-count-aria-label="# watchers on GitHub" aria-label="Watch 05dirnbe/NEFI on GitHub">Watch</a>
 
-          <p>It is important to the developers of NEFI that the user does not get caught up in
-            unnecessary details when using NEFI. A tool should be only as complicated as it needs to be to
-            do its job. However, there is a lot going on behind the scenes of every stage in the pipeline.
-            For a detailed discussion of NEFI's design and its algorithms we refer the interested reader to
-            our <a href="./NEFI/documentation/index.html">documentation</a>. It contains a full description of NEFI and serves as a more detailed
-            companion document that goes side-by-side with this project page. For details, please see the
-            section <a href="#publication">Publication</a>.</p>
+          <!-- Place this tag where you want the button to render. -->
+          <a class="github-button" href="https://github.com/05dirnbe/NEFI/fork" data-icon="octicon-repo-forked" data-style="mega" data-count-href="/05dirnbe/NEFI/network" data-count-api="/repos/05dirnbe/NEFI#forks_count" data-count-aria-label="# forks on GitHub" aria-label="Fork 05dirnbe/NEFI on GitHub">Fork</a><!-- Place this tag in your head or just before your close body tag. -->
+
+          <!-- Place this tag where you want the button to render. -->
+          <a class="github-button" href="https://github.com/05dirnbe/NEFI/issues" data-icon="octicon-issue-opened" data-style="mega" data-count-api="/repos/05dirnbe/NEFI#open_issues_count" data-count-aria-label="# issues on GitHub" aria-label="Issue 05dirnbe/NEFI on GitHub">Issue</a>
+        </div>
+        <div class="text-box">
+          <h2 id="installation">Download and Installation</h2>
+
+          <p>NEFI is easy to install. If you are a Mac or Windows user, simply go to <a href="./download.php">Download</a> and
+            download the package for your operating system. The packages listed in the download section
+            are complete software deploys. Thus, you simply run NEFI at the click of a button with no additional strings attached.
+          </p>
+
+          <p>For linux users and people interested in contribution to NEFI we offer a
+            <a href="./documentation/rst_files/Installation.html">detailed explanation</a>
+            on how to install NEFI manually. To see a listing of all used technologies and librarys
+            please visit our
+            <a href="./documentation/rst_files/Technologies.html"> Dependencies </a>
+            section.
+          </p>
+
+          <p> If you have any trouble during the installation process please contact us by creating
+            an issue at our project github page. 
+          </p>
+
+          <a class="github-button" href="https://github.com/05dirnbe/NEFI/issues" data-icon="octicon-issue-opened" data-style="mega" data-count-api="/repos/05dirnbe/NEFI#open_issues_count" data-count-aria-label="# issues on GitHub" aria-label="Issue 05dirnbe/NEFI on GitHub">Issue
+          </a>    
         </div>
         <div class="text-box">
           <h2 id="mailinglist">Mailing List</h2>
@@ -293,11 +276,7 @@
                                                                                  "https://lists.mpi-inf.mpg.de/listinfo/NEFI">mailing list</a> hosted at the <a href=
                                                                                                                                                                 "http://www.mpi-inf.mpg.de/home/">Max-Planck Institute for Informatics</a>.</p>
         </div>
-        <div class="text-box">
-          <h2 id="publication">Publication</h2>
-
-          <p>We are able to announce that NEFI has been peer reviewed and accepted for publication by scientific reports. Given the increasing importance of software in almost all domains of science we are happy to see that software contributions are welcomed.</p>
-        </div>
+        
         <div class="text-box">
           <h2 id="citing">How to cite NEFI</h2>
 
