@@ -4,7 +4,7 @@
     <meta charset="utf-8">
   </head>
   
-  <?php include ("./head.php"); ?>
+  <?php require("./head.php"); ?>
 
   <body>
     <div class="jumbotron">
@@ -64,5 +64,5 @@
   </body>
 
 
-  <?php include ("./footer.php"); ?>
+  <?php require("./footer.php"); ?>
 </html>
