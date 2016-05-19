@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <!-- The rest of your page's header here -->
+</head>
   <?php include ("head.php"); ?>
 
   <body>
