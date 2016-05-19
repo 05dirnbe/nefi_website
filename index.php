@@ -3,6 +3,11 @@
   <head>
     <meta charset="utf-8"/>
     <!-- The rest of your page's header here -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+  <link href="./css/sticky_footer.css" rel="stylesheet">
+  <link rel="icon" href="./favicon.ico?" type="image/x-icon">
+  <!-- this stylesheet contains manual modifications for the bootstrap theme-->
+  <link href="./css/manual_changes.css" rel="stylesheet">
 </head>
   <?php include ("head.php"); ?>
 
