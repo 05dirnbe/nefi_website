@@ -4,207 +4,337 @@
   
 </style>
 
-<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-<link rel="stylesheet" href="//blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
-<link rel="stylesheet" href="css/bootstrap-image-gallery.min.css">
+<link rel="stylesheet" href="css/manual_changes.css">
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<link rel='stylesheet prefetch' href='http://photoswipe.s3.amazonaws.com/pswp/dist/photoswipe.css'>
+<link rel='stylesheet prefetch' href='http://photoswipe.s3.amazonaws.com/pswp/dist/default-skin/default-skin.css'>
 
 <html lang="en">
   <?php include ("head.php"); ?>
-  <style>
-    .row img
-    {
-    width: 530px;
-    }
-  </style>
   <body>
-    <!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
-    <div id="blueimp-gallery" class="blueimp-gallery">
-        <!-- The container for the modal slides -->
-        <div class="slides"></div>
-        <!-- Controls for the borderless lightbox -->
-        <h3 class="title"></h3>
-        <a class="prev">‹</a>
-        <a class="next">›</a>
-        <a class="close">×</a>
-        <a class="play-pause"></a>
-        <ol class="indicator"></ol>
-        <!-- The modal dialog, which will be used to wrap the lightbox content -->
-        <div class="modal fade">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" aria-hidden="true">&times;</button>
-                        <h4 class="modal-title"></h4>
-                    </div>
-                    <div class="modal-body next"></div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default pull-left prev">
-                            <i class="glyphicon glyphicon-chevron-left"></i>
-                            Previous
-                        </button>
-                        <button type="button" class="btn btn-primary next">
-                            Next
-                            <i class="glyphicon glyphicon-chevron-right"></i>
-                        </button>
-                    </div>
+    <div class="container" id="outer_container">
+        
+        <!-- -------------------------------------------- A. Junius -------------------------------------------------------------------->
+        <div class="container image-container">
+            <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+                <h2>A. Junius</h2>
+                <p>Automated characterization of pattern of veins of insect wings makes tedious manual inspection obsolete and can yield clues for robust species indentification.</p>
+                <div class="gallery-image-container">
+                    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                        <a href="./images/examples/large/a_junius/junius.jpeg" itemprop="contentUrl" data-size="1920x1280" > 
+                            <img src="./images/examples/large/a_junius/junius.jpeg" class="big_image thumbnail" itemprop="thumbnail" alt="Image description" onClick="onThumbnailsClick(event);"/>
+                        </a>                                   
+                    </figure>
+                    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                        <a href="./images/examples/large/a_junius/Segmentation_watershed_de_adaptive_input (1).jpeg" itemprop="contentUrl" data-size="1920x1280" > 
+                            <img src="./images/examples/thumbnail/a_junius/Segmentation_watershed_de_adaptive_input (1).jpeg" class="thumbnail" itemprop="thumbnail" alt="Image description" onClick="onThumbnailsClick(event);"/>
+                        </a>                                   
+                    </figure>
+                    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                        <a href="./images/examples/large/a_junius/Thinning_guo_hall_thinning_input (1).jpeg" itemprop="contentUrl" data-size="1920x1280" > 
+                            <img src="./images/examples/thumbnail/a_junius/Thinning_guo_hall_thinning_input (1).jpeg" class="thumbnail" itemprop="thumbnail" alt="Image description" onClick="onThumbnailsClick(event);"/>
+                        </a>                                   
+                    </figure>
+                    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                        <a href="./images/examples/large/a_junius/Graph Detection_guo_hall_graph_detection_input (1).jpeg" itemprop="contentUrl" data-size="1920x1280" > 
+                            <img src="./images/examples/thumbnail/a_junius/Graph Detection_guo_hall_graph_detection_input (1).jpeg" class="thumbnail" itemprop="thumbnail" alt="Image description" onClick="onThumbnailsClick(event);"/>
+                        </a>                                  
+                    </figure>
+                    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                        <a href="./images/examples/large/a_junius/Graph Filtering_simple_cycle_input (1).jpeg" itemprop="contentUrl" data-size="1920x1280" > 
+                            <img src="./images/examples/thumbnail/a_junius/Graph Filtering_simple_cycle_input (1).jpeg" class="thumbnail" itemprop="thumbnail" alt="Image description" onClick="onThumbnailsClick(event);"/>
+                        </a>                                    
+                    </figure>
+                    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                        <a href="./images/examples/large/a_junius/Graph Filtering_keep_only_lcc_input (1).jpeg" itemprop="contentUrl" data-size="1920x1280" > 
+                            <img src="./images/examples/thumbnail/a_junius/Graph Filtering_keep_only_lcc_input (1).jpeg" class="thumbnail" itemprop="thumbnail" alt="Image description" onClick="onThumbnailsClick(event);"/>
+                        </a>                              
+                    </figure>
                 </div>
             </div>
         </div>
+    
+        <!-- -------------------------------------------- P. Polycephalum -------------------------------------------------------------------->
+        <div class="container image-container">
+            <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+                <h2>P. Polycephalum</h2>
+                <p>Detailed studies of the vein network topology of P. polycephalum might be helpful in understanding the intricate dynamics governing its internal flows.</p>
+                <div class="gallery-image-container">
+                    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                        <a href="./images/examples/large/poly/poly.jpeg" itemprop="contentUrl" data-size="1920x1280" > 
+                            <img src="./images/examples/large/poly/poly.jpeg" class="big_image thumbnail" itemprop="thumbnail" alt="Image description" onClick="onThumbnailsClick(event);"/>
+                        </a>                                   
+                    </figure>
+                    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                        <a href="./images/examples/large/poly/Segmentation_otsus_input.jpeg" itemprop="contentUrl" data-size="1920x1280" > 
+                            <img src="./images/examples/thumbnail/poly/Segmentation_otsus_input.jpeg" class="thumbnail" itemprop="thumbnail" alt="Image description" onClick="onThumbnailsClick(event);"/>
+                        </a>                                   
+                    </figure>
+                    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                        <a href="./images/examples/large/poly/Thinning_guo_hall_thinning_input.jpeg" itemprop="contentUrl" data-size="1920x1280" > 
+                            <img src="./images/examples/thumbnail/poly/Thinning_guo_hall_thinning_input.jpeg" class="thumbnail" itemprop="thumbnail" alt="Image description" onClick="onThumbnailsClick(event);"/>
+                        </a>                                   
+                    </figure>
+                    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                        <a href="./images/examples/large/poly/Graph Detection_guo_hall_graph_detection_input.jpeg" itemprop="contentUrl" data-size="1920x1280" > 
+                            <img src="./images/examples/thumbnail/poly/Graph Detection_guo_hall_graph_detection_input.jpeg" class="thumbnail" itemprop="thumbnail" alt="Image description" onClick="onThumbnailsClick(event);"/>
+                        </a>                                  
+                    </figure>
+                    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                        <a href="./images/examples/large/poly/Graph Filtering_simple_cycle_input.jpeg" itemprop="contentUrl" data-size="1920x1280" > 
+                            <img src="./images/examples/thumbnail/poly/Graph Filtering_simple_cycle_input.jpeg" class="thumbnail" itemprop="thumbnail" alt="Image description" onClick="onThumbnailsClick(event);"/>
+                        </a>                                    
+                    </figure>
+                    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                        <a href="./images/examples/large/poly/Graph Filtering_keep_only_lcc_input.jpeg" itemprop="contentUrl" data-size="1920x1280" > 
+                            <img src="./images/examples/thumbnail/poly/Graph Filtering_keep_only_lcc_input.jpeg" class="thumbnail" itemprop="thumbnail" alt="Image description" onClick="onThumbnailsClick(event);"/>
+                        </a>                              
+                    </figure>
+                </div>
+            </div>
+        </div>
+        
+        
+        <!-- -------------------------------------------- Crack Patterns -------------------------------------------------------------------->
+        <div class="container image-container">
+            <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+                <h2>Crack Patterns</h2>
+                <p>Reliable quantification and analysis of observables defined on networks can be potent tools when studying 
+                    dynamic processes such as the formation of crack patterns.</p>
+                <div class="gallery-image-container">
+                    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                        <a href="./images/examples/large/crack_patterns/crack_patterns.jpeg" itemprop="contentUrl" data-size="789x519" > 
+                            <img src="./images/examples/large/crack_patterns/crack_patterns.jpeg" class="big_image thumbnail" itemprop="thumbnail" alt="Image description" onClick="onThumbnailsClick(event);"/>
+                        </a>                                   
+                    </figure>
+                    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                        <a href="./images/examples/large/crack_patterns/Segmentation_otsus_input.jpeg" itemprop="contentUrl" data-size="789x519" > 
+                            <img src="./images/examples/thumbnail/crack_patterns/Segmentation_otsus_input.jpeg" class="thumbnail" itemprop="thumbnail" alt="Image description" onClick="onThumbnailsClick(event);"/>
+                        </a>                                   
+                    </figure>
+                    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                        <a href="./images/examples/large/crack_patterns/Thinning_guo_hall_thinning_input.jpeg" itemprop="contentUrl" data-size="789x519" > 
+                            <img src="./images/examples/thumbnail/crack_patterns/Thinning_guo_hall_thinning_input.jpeg" class="thumbnail" itemprop="thumbnail" alt="Image description" onClick="onThumbnailsClick(event);"/>
+                        </a>                                   
+                    </figure>
+                    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                        <a href="./images/examples/large/crack_patterns/Graph Filtering_keep_only_lcc_input.jpeg" itemprop="contentUrl" data-size="789x519" > 
+                            <img src="./images/examples/thumbnail/crack_patterns/Graph Filtering_keep_only_lcc_input.jpeg" class="thumbnail" itemprop="thumbnail" alt="Image description" onClick="onThumbnailsClick(event);"/>
+                        </a>                                  
+                    </figure>
+                </div>
+            </div>
+        </div>
+        
+        <!-- -------------------------------------------- Leaf Venation -------------------------------------------------------------------->
+        <div class="container image-container">
+            <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+                <h2>Leaf Venation</h2>
+                <p>Patterns in the venation network of leafs are often important characteristics for the identification of plants. Dealing with an enormous number of possible variations becomes easier when automated approaches are available.</p>
+                <div class="gallery-image-container">
+                    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                        <a href="./images/examples/large/leaf_venation/leaf_venation.jpeg" itemprop="contentUrl" data-size="800x800" > 
+                            <img src="./images/examples/large/leaf_venation/leaf_venation.jpeg" class="big_image thumbnail" itemprop="thumbnail" alt="Image description" onClick="onThumbnailsClick(event);"/>
+                        </a>                                   
+                    </figure>
+                    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                        <a href="./images/examples/large/leaf_venation/Segmentation_otsus_input.jpeg" itemprop="contentUrl" data-size="800x800" > 
+                            <img src="./images/examples/thumbnail/leaf_venation/Segmentation_otsus_input.jpeg" class="thumbnail" itemprop="thumbnail" alt="Image description" onClick="onThumbnailsClick(event);"/>
+                        </a>                                   
+                    </figure>
+                    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                        <a href="./images/examples/large/leaf_venation/Thinning_guo_hall_thinning_input.jpeg" itemprop="contentUrl" data-size="800x800" > 
+                            <img src="./images/examples/thumbnail/leaf_venation/Thinning_guo_hall_thinning_input.jpeg" class="thumbnail" itemprop="thumbnail" alt="Image description" onClick="onThumbnailsClick(event);"/>
+                        </a>                                   
+                    </figure>
+                    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                        <a href="./images/examples/large/leaf_venation/Graph Detection_guo_hall_graph_detection_input.jpeg" itemprop="contentUrl" data-size="800x800" > 
+                            <img src="./images/examples/thumbnail/leaf_venation/Graph Detection_guo_hall_graph_detection_input.jpeg" class="thumbnail" itemprop="thumbnail" alt="Image description" onClick="onThumbnailsClick(event);"/>
+                        </a>                                  
+                    </figure>
+                    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                        <a href="./images/examples/large/leaf_venation/Graph Filtering_keep_only_lcc_input.jpeg" itemprop="contentUrl" data-size="800x800" > 
+                            <img src="./images/examples/thumbnail/leaf_venation/Graph Filtering_keep_only_lcc_input.jpeg" class="thumbnail" itemprop="thumbnail" alt="Image description" onClick="onThumbnailsClick(event);"/>
+                        </a>                                    
+                    </figure>
+                </div>
+            </div>
+        </div>
+        
+        <!-- -------------------------------------------- Tiles -------------------------------------------------------------------->
+        <div class="container image-container">
+            <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+                <h2>Tiles</h2>
+                <p>Network extraction is not limited to applications in biology or physics. 
+                Abstracting away from the content of an image in order to focus on the underying network can grant a different view on man-made structures as well.</p>
+                <div class="gallery-image-container">
+                    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                        <a href="./images/examples/large/tiles/tiles.jpeg" itemprop="contentUrl" data-size="1920x1440" > 
+                            <img src="./images/examples/large/tiles/tiles.jpeg" class="big_image thumbnail" itemprop="thumbnail" alt="Image description" onClick="onThumbnailsClick(event);"/>
+                        </a>                                   
+                    </figure>
+                    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                        <a href="./images/examples/large/tiles/Segmentation_grabcut_de_otsus_input.jpeg" itemprop="contentUrl" data-size="1920x1440" > 
+                            <img src="./images/examples/thumbnail/tiles/Segmentation_grabcut_de_otsus_input.jpeg" class="thumbnail" itemprop="thumbnail" alt="Image description" onClick="onThumbnailsClick(event);"/>
+                        </a>                                   
+                    </figure>
+                    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                        <a href="./images/examples/large/tiles/Thinning_guo_hall_thinning_input.jpeg" itemprop="contentUrl" data-size="1920x1440" > 
+                            <img src="./images/examples/thumbnail/tiles/Thinning_guo_hall_thinning_input.jpeg" class="thumbnail" itemprop="thumbnail" alt="Image description" onClick="onThumbnailsClick(event);"/>
+                        </a>                                   
+                    </figure>
+                    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                        <a href="./images/examples/large/tiles/Graph Detection_guo_hall_graph_detection_input.jpeg" itemprop="contentUrl" data-size="1920x1440" > 
+                            <img src="./images/examples/thumbnail/tiles/Graph Detection_guo_hall_graph_detection_input.jpeg" class="thumbnail" itemprop="thumbnail" alt="Image description" onClick="onThumbnailsClick(event);"/>
+                        </a>                                  
+                    </figure>
+                    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                        <a href="./images/examples/large/tiles/Graph Filtering_keep_only_lcc_input.jpeg" itemprop="contentUrl" data-size="1920x1440" > 
+                            <img src="./images/examples/thumbnail/tiles/Graph Filtering_keep_only_lcc_input.jpeg" class="thumbnail" itemprop="thumbnail" alt="Image description" onClick="onThumbnailsClick(event);"/>
+                        </a>                                    
+                    </figure>
+                    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                        <a href="./images/examples/large/tiles/Graph Filtering_simple_cycle_input.jpeg" itemprop="contentUrl" data-size="1920x1440" > 
+                            <img src="./images/examples/thumbnail/tiles/Graph Filtering_simple_cycle_input.jpeg" class="thumbnail" itemprop="thumbnail" alt="Image description" onClick="onThumbnailsClick(event);"/>
+                        </a>                              
+                    </figure>
+                    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                        <a href="./images/examples/large/tiles/Graph Filtering_smooth_2_nodes_input.jpeg" itemprop="contentUrl" data-size="1920x1440" > 
+                            <img src="./images/examples/thumbnail/tiles/Graph Filtering_smooth_2_nodes_input.jpeg" class="thumbnail" itemprop="thumbnail" alt="Image description" onClick="onThumbnailsClick(event);"/>
+                        </a>                              
+                    </figure>
+                </div>
+            </div>
+        </div>
+        
+        <!-- -------------------------------------------- Spider webs -------------------------------------------------------------------->
+        <div class="container image-container">
+            <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+                <h2>Spider webs</h2>
+                <p>The ultra fine structures observed in a spider's web, clearly show how NEFI reaches its limits.</p>
+                <div class="gallery-image-container">
+                    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                        <a href="./images/examples/large/web2/web2.jpg" itemprop="contentUrl" data-size="3662x2748" > 
+                            <img src="./images/examples/large/web2/web2.jpg" class="big_image thumbnail" itemprop="thumbnail" alt="Image description" onClick="onThumbnailsClick(event);"/>
+                        </a>                                   
+                    </figure>
+                    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                        <a href="./images/examples/large/web2/Preprocessing_invert_color_web5.jpg" itemprop="contentUrl" data-size="3662x2748" > 
+                            <img src="./images/examples/thumbnail/web2/Preprocessing_invert_color_web5.jpg" class="thumbnail" itemprop="thumbnail" alt="Image description" onClick="onThumbnailsClick(event);"/>
+                        </a>                                   
+                    </figure>
+                    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                        <a href="./images/examples/large/web2/Preprocessing_bilateral_web5.jpg" itemprop="contentUrl" data-size="3662x2748" > 
+                            <img src="./images/examples/thumbnail/web2/Preprocessing_bilateral_web5.jpg" class="thumbnail" itemprop="thumbnail" alt="Image description" onClick="onThumbnailsClick(event);"/>
+                        </a>                                   
+                    </figure>
+                    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                        <a href="./images/examples/large/web2/Segmentation_constant_web5.jpg" itemprop="contentUrl" data-size="3662x2748" > 
+                            <img src="./images/examples/thumbnail/web2/Segmentation_constant_web5.jpg" class="thumbnail" itemprop="thumbnail" alt="Image description" onClick="onThumbnailsClick(event);"/>
+                        </a>                                  
+                    </figure>
+                    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                        <a href="./images/examples/large/web2/Thinning_guo_hall_thinning_web5.jpg" itemprop="contentUrl" data-size="3662x2748" > 
+                            <img src="./images/examples/thumbnail/web2/Thinning_guo_hall_thinning_web5.jpg" class="thumbnail" itemprop="thumbnail" alt="Image description" onClick="onThumbnailsClick(event);"/>
+                        </a>                                    
+                    </figure>
+                    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                        <a href="./images/examples/large/web2/Graph Detection_guo_hall_graph_detection_web5.jpg" itemprop="contentUrl" data-size="3662x2748" > 
+                            <img src="./images/examples/thumbnail/web2/Graph Detection_guo_hall_graph_detection_web5.jpg" class="thumbnail" itemprop="thumbnail" alt="Image description" onClick="onThumbnailsClick(event);"/>
+                        </a>                              
+                    </figure>
+                    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                        <a href="./images/examples/large/web2/Graph Filtering_smooth_2_nodes_web5.jpg" itemprop="contentUrl" data-size="3662x2748" > 
+                            <img src="./images/examples/thumbnail/web2/Graph Filtering_smooth_2_nodes_web5.jpg" class="thumbnail" itemprop="thumbnail" alt="Image description" onClick="onThumbnailsClick(event);"/>
+                        </a>                              
+                    </figure>
+                </div>
+            </div>
+        </div>
+
     </div>
-    <div class="container">
-    <div id="links">
-        <div class="container">
-          <h2>A. Junius</h2>
-          <p>Automated characterization of pattern of veins of insect wings makes tedious manual inspection obsolete and can yield clues for robust species indentification.</p>
-          <a href="./images/examples/large/a_junius/junius.jpeg" title="A.Junius Image" data-gallery>
-                  <img src="./images/examples/large/a_junius/junius.jpeg" alt="image" class = "thumbnail">
-              </a>
-          <div class="gallery-image-container">
-              <a href="./images/examples/large/a_junius/Segmentation_watershed_de_adaptive_input (1).jpeg" title="Median Blur" data-gallery>
-                  <img src="./images/examples/large/a_junius/Segmentation_watershed_de_adaptive_input (1).jpeg" alt="Median_Blur" class = "thumbnail">
-              </a>
-              <a href="./images/examples/large/a_junius/Thinning_guo_hall_thinning_input (1).jpeg" title="Segmentation Watershed adaptive" data-gallery >
-                  <img src="./images/examples/large/a_junius/Thinning_guo_hall_thinning_input (1).jpeg" alt="Segmentation" class = "thumbnail">
-              </a>
-              <a href="./images/examples/large/a_junius/Graph Detection_guo_hall_graph_detection_input (1).jpeg" title="Thinning" data-gallery>
-                  <img src="./images/examples/large/a_junius/Graph Detection_guo_hall_graph_detection_input (1).jpeg" alt="Thinning" class = "thumbnail">
-              </a>
-              <a href="./images/examples/large/a_junius/Graph Filtering_simple_cycle_input (1).jpeg" title="Guo & Hall Graphdetection" data-gallery>
-                  <img src="./images/examples/large/a_junius/Graph Filtering_simple_cycle_input (1).jpeg" alt="Graphdetection" class = "thumbnail">
-              </a>
-              <a href="./images/examples/large/a_junius/Graph Filtering_keep_only_lcc_input (1).jpeg" title="Graph Filtering keep only larges connected" data-gallery>
-                  <img src="./images/examples/large/a_junius/Graph Filtering_keep_only_lcc_input (1).jpeg" alt="Filtering" class = "thumbnail">
-              </a>  
-              </div>
-        </div>
-        <div class="container">
-          <h2>P. Polycephalum</h2>
-          <p>Detailed studies of the vein network topology of P. polycephalum might be helpful in understanding the intricate dynamics governing its internal flows.</p>
-          <a href="./images/examples/large/poly/poly.jpeg" title="A.Junius Image" data-gallery>
-                  <img src="./images/examples/large/poly/poly.jpeg" alt="<im></im>age" class = "thumbnail">
-              </a>
-          <div class="gallery-image-container">
-              <a href="./images/examples/large/poly/Segmentation_otsus_input.jpeg" title="Median Blur" data-gallery>
-                  <img src="./images/examples/large/poly/Segmentation_otsus_input.jpeg" alt="Median_Blur" class = "thumbnail">
-              </a>
-              <a href="./images/examples/large/poly/Thinning_guo_hall_thinning_input.jpeg" title="Segmentation Watershed adaptive" data-gallery >
-                  <img src="./images/examples/large/poly/Thinning_guo_hall_thinning_input.jpeg" alt="Segmentation" class = "thumbnail">
-              </a>
-              <a href="./images/examples/large/poly/Graph Detection_guo_hall_graph_detection_input.jpeg" title="Thinning" data-gallery>
-                  <img src="./images/examples/large/poly/Graph Detection_guo_hall_graph_detection_input.jpeg" alt="Thinning" class = "thumbnail">
-              </a>
-              <a href="./images/examples/large/poly/Graph Filtering_simple_cycle_input.jpeg" title="Guo & Hall Graphdetection" data-gallery>
-                  <img src="./images/examples/large/poly/Graph Filtering_simple_cycle_input.jpeg" alt="Graphdetection" class = "thumbnail">
-              </a>
-              <a href="./images/examples/large/poly/Graph Filtering_keep_only_lcc_input.jpeg" title="Graph Filtering keep only larges connected" data-gallery>
-                  <img src="./images/examples/large/poly/Graph Filtering_keep_only_lcc_input.jpeg" alt="Filtering" class = "thumbnail">
-              </a>  
-              </div>
-        </div>
-        <div class="container">
-          <h2>Crack Patterns</h2>
-          <p>Reliable quantification and analysis of observables defined on networks can be potent tools when studying 
-            dynamic processes such as the formation of crack patterns.</p>
-            <a href="./images/examples/large/crack_patterns/crack_patterns.jpeg" title="Crack Patterns Image" data-gallery>
-                  <img src="./images/examples/large/crack_patterns/crack_patterns.jpeg" alt="crack_pattern_image" class = "thumbnail">
-              </a>
-          <div class="gallery-image-container">
-              <a href="./images/examples/large/crack_patterns/Segmentation_otsus_input.jpeg" title="Otsus Segmentation" data-gallery>
-                  <img src="./images/examples/large/crack_patterns/Segmentation_otsus_input.jpeg" alt="otsus_segmentation" class = "thumbnail">
-              </a>
-              <a href="./images/examples/large/crack_patterns/Thinning_guo_hall_thinning_input.jpeg" title="Thinning" data-gallery>
-                  <img src="./images/examples/large/crack_patterns/Thinning_guo_hall_thinning_input.jpeg" alt="thinning" class = "thumbnail">
-              </a>
-              <a href="./images/examples/large/crack_patterns/Graph Detection_guo_hall_graph_detection_input.jpeg" title="Guo & Hall Graphdetection" data-gallery>
-                  <img src="./images/examples/large/crack_patterns/Graph Detection_guo_hall_graph_detection_input.jpeg" alt="guo_hall_graphdetection" class = "thumbnail">
-              </a>
-              <a href="./images/examples/large/crack_patterns/Graph Filtering_keep_only_lcc_input.jpeg" title="Graph Filtering keep only largest connected" data-gallery>
-                  <img src="./images/examples/large/crack_patterns/Graph Filtering_keep_only_lcc_input.jpeg" alt="graph_filtering" class = "thumbnail">
-              </a>
-              </div>
-        </div>
-        <div class="container">
-          <h2>Leaf Venation</h2>
-          <p>Patterns in the venation network of leafs are often important characteristics for the identification of plants. Dealing with an enormous number of possible variations becomes easier when automated approaches are available.</p>
-          <a href="./images/examples/large/leaf_venation/leaf_venation.jpeg" title="Leaf Venation Image" data-gallery>
-                  <img src="./images/examples/large/leaf_venation/leaf_venation.jpeg" alt="leaf_venation" class = "thumbnail">
-          </a>
-          <div class="gallery-image-container">
-              <a href="./images/examples/large/leaf_venation/Segmentation_otsus_input.jpeg" title="Otsus Segmentation" data-gallery>
-                  <img src="./images/examples/large/leaf_venation/Segmentation_otsus_input.jpeg" alt="otsus_segmentation" class = "thumbnail">
-              </a>
-              <a href="./images/examples/large/leaf_venation/Thinning_guo_hall_thinning_input.jpeg" title="Thinning" data-gallery>
-                  <img src="./images/examples/large/leaf_venation/Thinning_guo_hall_thinning_input.jpeg" alt="thinning" class = "thumbnail">
-              </a>
-              <a href="./images/examples/large/leaf_venation/Graph Detection_guo_hall_graph_detection_input.jpeg" title="Guo & Hall Graphdetection" data-gallery>
-                  <img src="./images/examples/large/leaf_venation/Graph Detection_guo_hall_graph_detection_input.jpeg" alt="graph_detection" class = "thumbnail">
-              </a>
-              <a href="./images/examples/large/leaf_venation/Graph Filtering_keep_only_lcc_input.jpeg" title="Graph Filtering keep only largest connected" data-gallery>
-                  <img src="./images/examples/large/leaf_venation/Graph Filtering_keep_only_lcc_input.jpeg" alt="graph_filtering" class = "thumbnail">
-              </a>
-              </div>
-        </div>
-        <div class="container">
-          <h2>Tiles</h2>
-          <p>Network extraction is not limited to applications in biology or physics. 
-            Abstracting away from the content of an image in order to focus on the underying network can grant a different view on man-made structures as well.</p>
-            <a href="./images/examples/large/tiles/tiles.jpeg" title="Tiles Image" data-gallery>
-                  <img src="./images/examples/large/tiles/tiles.jpeg" alt="image" class = "thumbnail">
-              </a>
-          <div class="gallery-image-container">
-              <a href="./images/examples/large/tiles/Segmentation_grabcut_de_otsus_input.jpeg" title="Otsus Segmentation" data-gallery>
-                  <img src="./images/examples/large/tiles/Segmentation_grabcut_de_otsus_input.jpeg" alt="otsus_segmentation" class = "thumbnail">
-              </a>
-              <a href="./images/examples/large/tiles/Thinning_guo_hall_thinning_input.jpeg" title="Thinning" data-gallery>
-                  <img src="./images/examples/large/tiles/Thinning_guo_hall_thinning_input.jpeg" alt="thinning" class = "thumbnail">
-              </a>
-              <a href="./images/examples/large/tiles/Graph Detection_guo_hall_graph_detection_input.jpeg" title="Guo & Hall Graphdetection" data-gallery>
-                  <img src="./images/examples/large/tiles/Graph Detection_guo_hall_graph_detection_input.jpeg" alt="graph_detection" class = "thumbnail">
-              </a>
-              <a href="./images/examples/large/tiles/Graph Filtering_keep_only_lcc_input.jpeg" title="Graph Filtering keep only largest connected" data-gallery>
-                  <img src="./images/examples/large/tiles/Graph Filtering_keep_only_lcc_input.jpeg" alt="graph_filtering" class = "thumbnail">
-              </a>
-              <a href="./images/examples/large/tiles/Graph Filtering_simple_cycle_input.jpeg" title="Graph Filtering simple cycle" data-gallery>
-                  <img src="./images/examples/large/tiles/Graph Filtering_simple_cycle_input.jpeg" alt="graph_filtering" class = "thumbnail">
-              </a>
-              <a href="./images/examples/large/tiles/Graph Filtering_smooth_2_nodes_input.jpeg" title="Graph Filtering smooth 2 nodes" data-gallery>
-                  <img src="./images/examples/large/tiles/Graph Filtering_smooth_2_nodes_input.jpeg" alt="graph_filtering" class = "thumbnail">
-              </a>
-              </div>
-        </div>
-        <div class="container">
-          <h2>Spider webs</h2>
-          <p>The ultra fine structures observed in a spider's web, clearly show how NEFI reaches its limits.</p>
-          <a href="./images/examples/large/web2/web2.jpg" title="Web #2 Image" data-gallery>
-                  <img src="./images/examples/large/web2/web2.jpg" alt="image"" class="thumbnail">
-              </a>
-          <div class="gallery-image-container">
-              <a href="./images/examples/large/web2/Preprocessing_invert_color_web5.jpg" title="Preprocessing Invert Color" data-gallery>
-                  <img src="./images/examples/large/web2/Preprocessing_invert_color_web5.jpg" alt="invert" class = "thumbnail">
-              </a>
-              <a href="./images/examples/large/web2/Preprocessing_bilateral_web5.jpg" title="Preprocessing Bilateral" data-gallery>
-                  <img src="./images/examples/large/web2/Preprocessing_bilateral_web5.jpg" alt="bilateral" class = "thumbnail">
-              </a>
-              <a href="./images/examples/large/web2/Segmentation_constant_web5.jpg" title="Constant Segmentation" data-gallery>
-                  <img src="./images/examples/large/web2/Segmentation_constant_web5.jpg" alt="constant" class = "thumbnail">
-              </a>
-              <a href="./images/examples/large/web2/Thinning_guo_hall_thinning_web5.jpg" title="Thinning" data-gallery>
-                  <img src="./images/examples/large/web2/Thinning_guo_hall_thinning_web5.jpg" alt="thinning" class = "thumbnail">
-              </a>
-              <a href="./images/examples/large/web2/Graph Detection_guo_hall_graph_detection_web5.jpg" title="Guo & Hall Graphdetection" data-gallery>
-                  <img src="./images/examples/large/web2/Graph Detection_guo_hall_graph_detection_web5.jpg" alt="graph_detection" class = "thumbnail">
-              </a>
-              <a href="./images/examples/large/web2/Graph Filtering_smooth_2_nodes_web5.jpg" title="Graph Filtering smooth 2 nodes" data-gallery>
-                  <img src="./images/examples/large/web2/Graph Filtering_smooth_2_nodes_web5.jpg" alt="graph_filtering" class = "thumbnail">
-              </a>
-          </div>
-        </div>
-        </div>
+<!--
+
+
+
+
+
+
+
+
+
+    <!-- Root element of PhotoSwipe. Must have class pswp. -->
+    <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+        <!-- Background of PhotoSwipe. 
+            It's a separate element, as animating opacity is faster than rgba(). -->
+        <div class="pswp__bg"></div>
+
+        <!-- Slides wrapper with overflow:hidden. -->
+        <div class="pswp__scroll-wrap">
+
+            <!-- Container that holds slides. PhotoSwipe keeps only 3 slides in DOM to save memory. -->
+            <!-- don't modify these 3 pswp__item elements, data is added later on. -->
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+            <div class="pswp__ui pswp__ui--hidden">
+
+                <div class="pswp__top-bar">
+
+                    <!--  Controls are self-explanatory. Order can be changed. -->
+
+                    <div class="pswp__counter"></div>
+
+                    <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                    <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                    <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                    <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                    <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                    <!-- element will get class pswp__preloader--active when preloader is running -->
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div> 
+                </div>
+
+                <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+                </button>
+
+                <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+                </button>
+
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+
+            </div>
+
+            </div>
+
     </div>
+    
+    <script src='http://photoswipe.s3-eu-west-1.amazonaws.com/pswp/dist/photoswipe.min.js'></script>
+    <script src='http://photoswipe.s3-eu-west-1.amazonaws.com/pswp/dist/photoswipe-ui-default.min.js'></script>
+    <script src="js/gallery.js"></script>
   </body>
 
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <script src="//blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
-  <script src="js/bootstrap-image-gallery.min.js"></script>
+  
   <?php include ("footer.php"); ?>
 </html>

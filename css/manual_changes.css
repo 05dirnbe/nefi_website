@@ -31,11 +31,11 @@ footer .container
     margin-top:50px;
 }
 
-#links .container {
+.image-container {
     margin-top:40px;
 }
 
-#links .container h2 {
+.my-gallery h2 {
     margin-bottom: 20px;
     margin-left: 4px;
 }
@@ -49,11 +49,13 @@ footer .container
     width:100px;
 }
 
-#links > .container > a > img {
-    height:300px;
+.big_image {
+    height:300px !important;
+    width:auto !important;
+    float:none !important;
 }
 
-#links .container {
+.image-container {
     float:left;
     width:500px;
     height:700px;
@@ -61,7 +63,7 @@ footer .container
     margin-right:30px;
 }
 
-#links p {
+.my-gallery p {
     margin-left: 4px;
     width:400px;
     height:100px;
