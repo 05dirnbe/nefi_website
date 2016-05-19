@@ -1,13 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-  </head>
+<html lang="en">  
+  <?php include ("./head.php"); ?>
   
-  <?php 
-  echo "Hallo Welt";
-  require("./head.php"); ?>
-
   <body>
     <div class="jumbotron">
       <div class="container">
@@ -66,5 +60,5 @@
   </body>
 
 
-  <?php require("./footer.php"); ?>
+  <?php include ("./footer.php"); ?>
 </html>
