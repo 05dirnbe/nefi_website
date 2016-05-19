@@ -332,7 +332,7 @@
     
     <script src='http://photoswipe.s3-eu-west-1.amazonaws.com/pswp/dist/photoswipe.min.js'></script>
     <script src='http://photoswipe.s3-eu-west-1.amazonaws.com/pswp/dist/photoswipe-ui-default.min.js'></script>
-    <script src="js/gallery.js"></script>
+    <script src="./js/gallery.js"></script>
   </body>
 
   

@@ -8,11 +8,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>NEFI: Network Extraction From Images</title><!-- Bootstrap -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/sticky_footer.css" rel="stylesheet">
-  <link rel="icon" href="favicon.ico?" type="image/x-icon">
+  <link href="./css/bootstrap.min.css" rel="stylesheet">
+  <link href="./css/sticky_footer.css" rel="stylesheet">
+  <link rel="icon" href="./favicon.ico?" type="image/x-icon">
   <!-- this stylesheet contains manual modifications for the bootstrap theme-->
-  <link href="css/manual_changes.css" rel="stylesheet">
+  <link href="./css/manual_changes.css" rel="stylesheet">
 
   <!-- github script for invoking the github buttons-->
   <script async defer src="https://buttons.github.io/buttons.js"></script>
