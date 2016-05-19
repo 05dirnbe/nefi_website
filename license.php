@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <html lang="en">
-<?php include ("head.php"); ?>
+<?php include ("./head.php"); ?>
 
 <body>
   <!-- Static navbar -->
@@ -30,6 +30,6 @@
     OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
     POSSIBILITY OF SUCH DAMAGE.</p>
   </div>
-    <?php include ("footer.php"); ?>
+    <?php include ("./footer.php"); ?>
 </body>
 </html>

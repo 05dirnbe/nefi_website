@@ -11,7 +11,7 @@
 <link rel='stylesheet prefetch' href='http://photoswipe.s3.amazonaws.com/pswp/dist/default-skin/default-skin.css'>
 
 <html lang="en">
-  <?php include ("head.php"); ?>
+  <?php include ("./head.php"); ?>
   <body>
     <div class="container" id="outer_container">
         
@@ -336,5 +336,5 @@
   </body>
 
   
-  <?php include ("footer.php"); ?>
+  <?php include ("./footer.php"); ?>
 </html>

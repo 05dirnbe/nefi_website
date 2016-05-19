@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <html lang="en">
-  <?php include ("head.php"); ?>
+  <?php include ("./head.php"); ?>
 
   <body>
     <div class="container">
@@ -297,5 +297,5 @@
     </div><!-- /container -->
 
   </body>
-  <?php include ("footer.php"); ?>
+  <?php include ("./footer.php"); ?>
 </html>
