@@ -4,7 +4,9 @@
     <meta charset="utf-8">
   </head>
   
-  <?php require("./head.php"); ?>
+  <?php 
+  error_reporting(E_ALL ^ E_NOTICE);
+  require("./head.php"); ?>
 
   <body>
     <div class="jumbotron">
