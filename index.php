@@ -5,7 +5,7 @@
   </head>
   
   <?php 
-  error_reporting(E_ALL ^ E_NOTICE);
+  echo "Hallo Welt";
   require("./head.php"); ?>
 
   <body>
