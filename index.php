@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
-  <?php include ("head.php"); ?>
-
+<html lang="en">  
+  <?php include ("./head.php"); ?>
+  
   <body>
     <div class="jumbotron">
       <div class="container">
@@ -60,5 +60,5 @@
   </body>
 
 
-  <?php include ("footer.php"); ?>
+  <?php include ("./footer.php"); ?>
 </html>

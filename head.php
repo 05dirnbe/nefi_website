@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 
 <head>
+  <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+  <meta content="utf-8" http-equiv="encoding">
   <meta name="generator" content=
         "HTML Tidy for HTML5 (experimental) for Mac OS X https://github.com/w3c/tidy-html5/tree/c63cc39">
   <meta charset="utf-8">
@@ -8,11 +10,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>NEFI: Network Extraction From Images</title><!-- Bootstrap -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/sticky_footer.css" rel="stylesheet">
-  <link rel="icon" href="favicon.ico?" type="image/x-icon">
+  <link href="./css/bootstrap.min.css" rel="stylesheet">
+  <link href="./css/sticky_footer.css" rel="stylesheet">
+  <link rel="icon" href="./favicon.ico?" type="image/x-icon">
   <!-- this stylesheet contains manual modifications for the bootstrap theme-->
-  <link href="css/manual_changes.css" rel="stylesheet">
+  <link href="./css/manual_changes.css" rel="stylesheet">
 
   <!-- github script for invoking the github buttons-->
   <script async defer src="https://buttons.github.io/buttons.js"></script>

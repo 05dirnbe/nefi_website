@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <html lang="en">
-  <?php include ("head.php"); ?>
+  <?php include ("./head.php"); ?>
   <body>
     <div class="container">
       <div class="mid-section">
@@ -102,11 +102,16 @@
         </div>
         <div class="text-box">
           <h1>Further credits</h1>
-          <div>Icons made by Situ Herrera, Appzgear, Freepik, Google from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a></div>
+          <div>
+            <p>Icons made by Situ Herrera, Appzgear, Freepik, Google from 
+              <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a>.<p>
+            </p>
+      <p><a href="https://github.com/dimsemenov/photoswipe">PhotoSwipe</a> image gallery by  <a href="https://twitter.com/dimsemenov">Dmitry Semenov.</a></p>
+          </div>
 </p>
 </div>
 </div>
 </div>
 </body>
-<?php include("footer.php"); ?>
+<?php include("./footer.php"); ?>
 </html>
