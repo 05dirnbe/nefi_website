@@ -49,7 +49,7 @@
           <a class="btn btn-lg btn-primary"  href="https://github.com/05dirnbe/nefi" role=
              "button">Github »</a>
           <p></p>
-          <p>Help us improve and contribute your ideas</p>
+          <p>Help us improve and contribute your ideas.</p>
         </div>
       </div><!-- row -->
     </div>
