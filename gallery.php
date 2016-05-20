@@ -334,6 +334,7 @@
     <script src='http://photoswipe.s3-eu-west-1.amazonaws.com/pswp/dist/photoswipe-ui-default.min.js'></script>
     <script src="./js/gallery.js"></script>
   </body>
+  
 
   
   <?php include ("./footer.php"); ?>
